@@ -85,3 +85,26 @@ Executing transaction: done
 
 (keras) E:\Data\강화학습>
 ~~~
+~~~
+(keras) E:\Data\강화학습>pip install fix_yahoo_finance --upgrade --no-cache-dir
+Collecting fix_yahoo_finance
+  Downloading https://files.pythonhosted.org/packages/0a/96/d44330e427f5368cb8abd25997b72956a31b52073d285c4d5cd56e5fdc17/fix-yahoo-finance-0.0.22.tar.gz
+Requirement already satisfied, skipping upgrade: pandas in e:\program\anaconda3\envs\keras\lib\site-packages (from fix_yahoo_finance) (0.23.4)
+Requirement already satisfied, skipping upgrade: numpy in e:\program\anaconda3\envs\keras\lib\site-packages (from fix_yahoo_finance) (1.15.4)
+Requirement already satisfied, skipping upgrade: requests in e:\program\anaconda3\envs\keras\lib\site-packages (from fix_yahoo_finance) (2.20.1)
+Collecting multitasking (from fix_yahoo_finance)
+  Downloading https://files.pythonhosted.org/packages/ac/1a/0750416c5e3683d170757e423f097fdf78ceb9ccdc65658b24341664e53e/multitasking-0.0.7.tar.gz
+Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in e:\program\anaconda3\envs\keras\lib\site-packages (from pandas->fix_yahoo_finance) (2.7.5)
+Requirement already satisfied, skipping upgrade: pytz>=2011k in e:\program\anaconda3\envs\keras\lib\site-packages (from pandas->fix_yahoo_finance) (2018.7)
+Requirement already satisfied, skipping upgrade: idna<2.8,>=2.5 in e:\program\anaconda3\envs\keras\lib\site-packages (from requests->fix_yahoo_finance) (2.7)
+Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in e:\program\anaconda3\envs\keras\lib\site-packages (from requests->fix_yahoo_finance) (2018.10.15)
+Requirement already satisfied, skipping upgrade: urllib3<1.25,>=1.21.1 in e:\program\anaconda3\envs\keras\lib\site-packages (from requests->fix_yahoo_finance) (1.23)
+Requirement already satisfied, skipping upgrade: chardet<3.1.0,>=3.0.2 in e:\program\anaconda3\envs\keras\lib\site-packages (from requests->fix_yahoo_finance) (3.0.4)
+Requirement already satisfied, skipping upgrade: six>=1.5 in e:\program\anaconda3\envs\keras\lib\site-packages (from python-dateutil>=2.5.0->pandas->fix_yahoo_finance) (1.11.0)
+Installing collected packages: multitasking, fix-yahoo-finance
+  Running setup.py install for multitasking ... done
+  Running setup.py install for fix-yahoo-finance ... done
+Successfully installed fix-yahoo-finance-0.0.22 multitasking-0.0.7
+
+(keras) E:\Data\강화학습>
+~~~
